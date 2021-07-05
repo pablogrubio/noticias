@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import url("https://use.typekit.net/efy2amo.css");
+*,:after,:before{box-sizing:border-box}
+img{border:0;max-width:100%}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+ul,li{list-style-type:none;margin:0;padding:0}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{margin:0 auto !important;font-family:'myriad-pro',sans-serif;margin:0 auto;padding:0;font-size:16px;max-width:1366px;font-weight:400;}
+
+header{padding:0 5%;height:96px;background-color:#ffffff;position:sticky;z-index:10;width:100%;display:flex !important;align-items:center;top:0;left:0;}
+header ul{display:flex;justify-content:space-between;}
+header nav{display:flex;justify-content:flex-end;width:80%;margin-left:5%;}
+header nav li + li{margin-left:40px;}
+header nav ul li a{font-size:16px;color:#004C71;}
+header nav ul li a:hover{text-decoration:underline}
+header > a{background:url(../img/logo-inima-header.png) no-repeat 0 0;background-size:175px 55px;width:175px;height:55px;display:inline-block}
+header .rrss li + li{margin-left:20px;}
+header .rrss a{background:url(../img/sprite-rrss.png) no-repeat;background-size:38px 20px;display:inline-block;}
+header .rrss a.twitter{background-position:0 0;width:25px;height:20px;}
+header .rrss a.facebook{background-position:-27px 0;width:11px;height:20px;}
+header .logout a{float:right;display: block; height: 50px; width: 150px;line-height: 50px;background-color: #004C71;color: #ffffff;font-size: 16px;border: 0;margin: 0 auto; text-align: center;}
+.menu-servicios{position: absolute;left:calc(175px + 9%);top:96px;display:none;}
+.menu-servicios ul li:first-child{background-color:#004C71;position: relative;}
+.menu-servicios ul li:first-child a{color:#ffffff}
+.menu-servicios ul li:first-child:before{content: '';width: 0;height: 0;border-left: 15px solid transparent;border-right: 15px solid transparent;border-top: 15px solid #ffffff;transform: translateX(-50%);left: 50%;position: absolute;top: -1px;}
+.menu-servicios ul li:first-child:after{content: '';width: 0;height: 0;border-left: 18px solid #004C71;border-top: 18px solid transparent;border-bottom: 18px solid transparent;transform: translateX(-50%);left: 106%;position: absolute;top: 16px;}
+.menu-servicios ul li:nth-child(2){margin-left: 0px;}
+.menu-servicios ul li{padding: 24px 30px;background-color: #3DBDCC;margin-left: 2px;text-align: center;}
+.menu-servicios ul li a{color:#004C71;}
+.menu-servicios ul li a:hover{text-decoration:underline;}
+
+
+footer{margin-top:50px;padding:20px 5%;background-color:#004C71; clear: both;}
+footer ul{display:flex;justify-content:space-between;}
+footer ul li{width:18%;}
+footer ul li h2{font-size:18px;font-weight:300;color:#3DBDCC;margin-bottom:20px}
+footer ul li p{color:#ffffff;line-height:20px;margin-bottom:20px;}
+footer ul li a{color:#ffffff;text-decoration:underline;}
+footer ul li img{display:block;margin-top:20px;}
+
+article{padding:0 10%;position:relative}
+article.padding0{padding:0}
+article.padding0 h1{position:absolute;top:50%;left:5%;font-size:80px;font-weight:300;}
+.blanco{color:#ffffff;}
+.verde{color:#5B9039}
+p{line-height:20px;margin-bottom:20px;}
+hr{margin-top: 46px;border: 1px solid #DBDBDB}
+#home .intro{margin:40px 0;}
+#home .intro h2{color:#8D8D8D;font-weight:300;font-size:40px;margin-bottom:10px;}
+#home .intro ul{display:flex;justify-content:space-between;}
+#home .intro ul li{width:48%;}
+#home .intro h3{color:#3DBDCC;font-size:26px;line-height:30px;font-weight:300;}
+
+#login h1{font-size: 68px; margin-bottom: 20px; font-weight:300;text-align: center;}
+#login h2{color: #004C71;font-size: 28px;margin: 20px 0;font-family: 'myriad-pro-condensed';}
+#login input{display: inline-block;width: calc(100% - 50px);height: 50px;padding-left: 5px;vertical-align: top;border: 2px solid #dddddd;font-size: 20px;font-family: 'myriad-pro-condensed';}
+#login input[type="submit"]{float:right;display: block;width: 50%;height: 60px;line-height: 60px;background-color: #5B9039;color: #ffffff;font-size: 20px;text-align: center;margin-bottom: 40px;border: 0;}
+#login i{background: url(../img/sprite-formulario.jpg) no-repeat;background-size: 250px 50px;width: 50px;height: 50px;display: inline-block;vertical-align: top;}
+#login i.usuario{background-position: -50px 0px;}
+#login i.password{background-position: 0px 0px;}
+#login form{width: 40%;margin: 0 auto;}
+#login .separar{margin-bottom: 4%;margin-left: 11%;}
+
+
+#noticias h1{font-size: 50px; color: #004C71; font-weight: 300;}
+#noticias label{margin-top: 42px;color:#707070; font-size: 16px; display:block; margin-bottom: 10px;}
+#noticias ul{display: flex;justify-content: space-between;}
+#noticias ul li{ width: 48%;}
+#noticias input[type="submit"]{display: block; width: 48%;height: 50px;line-height: 50px;background-color: #5B9039;color: #ffffff;font-size: 20px;text-align: center;margin-top: 40px;float: right;border: 0;margin-bottom: 20px;}
+#noticias input[type="text"]{display: block; width: 100%;height: 60px; border:2px solid #dddddd; font-size: 20px; font-family: 'myriad-pro-condensed'; padding-left: 5px;}
+/*#noticias li input:last-child{height: 200px;}*/
+#noticias a{display: block; width: 20%;height: 50px;line-height: 50px;background-color: #5B9039;color: #ffffff;font-size: 20px;border: 0; text-align: center;margin: 0 auto;float: right;}
+
+#gestor  h1{font-size: 50px; color: #004C71; font-weight: 300;}
+#gestor  a.nueva-noticia{display: block; width: 20%;height: 50px;line-height: 50px;background-color: #5B9039;color: #ffffff;font-size: 20px;border: 0; text-align: center;margin: 0 auto;margin-top: 40px;margin-bottom: 40px;}
+#gestor section{display:flex;margin-top: 40px; justify-content: space-between;}
+#gestor section img{width: 30%;}
+#gestor section .texto-noticia{width:56%;}
+#gestor ul{width: 40px;}
+#gestor section a{width: 40px; height: 40px; background-color: #F2F2F2; display:flex;justify-content: center;align-items: center;}
+#gestor section a:hover{background-color: #004C71;}
+#gestor section a:hover i.icono.vista {background-position: 0 0;}
+#gestor section a:hover i.icono.borrar {background-position: -40px 0;}
+#gestor section a:hover i.icono.editar {background-position: -20px 0;}
+#gestor section a i.icono.vista{ width: 20px; height: 13px; background-position: 0px -22px;padding: 10px;}
+#gestor section a i.icono.borrar{ width: 20px; height: 21px; background-position: -40px -23px;}
+#gestor section a i.icono.editar{width: 20px; height:20px; background-position: -20px -23px;}
+#gestor section a i.icono{background: url(../img/sprite-gestor.png) no-repeat; background-size: 60px 44px;display: block;}
+#gestor section p.titular{font-size: 20px;font-weight: bold;}
+#gestor section p.fecha{font-size: 12px; color: #909090;}
